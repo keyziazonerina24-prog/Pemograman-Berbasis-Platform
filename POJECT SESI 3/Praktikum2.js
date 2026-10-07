@@ -43,5 +43,7 @@ rl.question('Masukan Daftar Olahraga (Contoh: Lari, Push-up, Plank): ', (inputol
         console.log("==================================");
         console.log(`Total Durasi: ${totalDurasi} menit`);
         console.log(`Total Kalori Terbakar: ${totalKalori.toFixed(2)} kalori`);
+
+        rl.close();
     });
 });
